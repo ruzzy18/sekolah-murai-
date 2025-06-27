@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+nav {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  border-radius: 0 0 24px 24px;
+  margin-bottom: 24px;
+}
+main,
+section {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  margin: 24px auto;
+  padding: 32px;
+  max-width: 1100px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+.nav-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2b3a67;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #2b3a67;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.nav-menu li a:hover,
+.btn-reg {
+  background: #2b3a67;
+  color: #fff !important;
+}
+.btn-reg {
+  background: #2b3a67;
+  color: #fff;
+  font-weight: bold;
+}
+.tagline {
+  max-width: 500px;
+  margin-bottom: 32px;
+}
+.tag {
+  font-size: 1.1rem;
+  color: #2b3a67;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.deskripsi {
+  margin: 16px 0;
+  color: #444;
+}
+.btn-more {
+  display: inline-block;
+  background: #2b3a67;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 12px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn-more:hover {
+  background: #1a2442;
+}
+.visi-misi {
+  margin-left: 32px;
+}
+.title1 {
+  color: #2b3a67;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.title2,
+.title {
+  color: #2b3a67;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.galeri {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+.card p {
+  margin: 12px 0;
+}
+.kontak-info {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.info-item {
+  min-width: 200px;
+}
